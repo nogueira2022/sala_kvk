@@ -1,4 +1,70 @@
-header{
-    background-color: #5964a8;
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+.cabeçalho{
+    background-color: #0026F2;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+    }
+
+    .cabeçalho-imagem{
+width: 10%;
+    }
+ 
+    .cabeçalho-lista-item{
+        display: inline-block;
+        margin: 0 77px;
+        font-size: 24px;
+    }
+    .pet-shop-imagem{
+        width:20% ;
+    }
+
+    .pet-shop{
+        background-image: linear-gradient(#0026F2, #0DE5F2);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+    }
+
+    .pet-shop-div-conteudo{
+        width: 70%;
+    }
+    .pet-shop-titulo{
+        padding: 24px 0;
+    }
+
+    .imagem-cliente{
+        width: 200px;
+    }
+
+    .imagem-cliente{
+        width: 120px;
+    }
+
+    .cliente-div{
+        align-items: center;
+    }
+    .clientes-titulo{
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .imagem-todos{
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10% 10% 10%;
+    }
+
+    .rodape{
+        background-color: black;
+    }
+    .rodape-imagem{
+        height: 60px;
+    }
